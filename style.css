@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(./assets/home/background-home-desktop.jpg);
+  color: white;
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+  margin-top: 40px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.logo{
+  left: 45px;
+  top: 20px;
+  position: relative;
+}
+
+.line{
+  width: 465px;
+  z-index: 9;
+  height: 0.079px;
+  background-color: gray;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  opacity: 0.3;
+  left: 130px;
+}
+
+nav ul{
+  display: flex;
+  width: 800px;
+  backdrop-filter: blur(40px);
+  background: rgba(255, 255, 255, 0.1);
+  list-style: none;
+  justify-content: end;
+}
+
+
+.white-num{
+  opacity: 0.6;
+  margin-left: 10px;
+}
+
+nav ul li{
+  padding: 28px 10px ;
+  position: relative;
+  right: 120px;
+}
+
+nav ul li:hover{
+  background-color: green;
+}
+
+nav ul li a{
+  position: relative;
+  margin-right: 19px;
+}
+
+p{
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
+
+p:nth-of-type(1) {
+  font-size: 25px;
+  opacity: 0.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p:nth-of-type(2) {
+  font-size: 100px;
+  font-family: Tahoma;
+}
+
+p:nth-of-type(3) {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.7;
+  margin-left: -10px;
+}
+
+
+
+.explore{
+  position: relative;
+  left: 70vw;
+  top: 210px;
+  padding: 100px 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
